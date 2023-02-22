@@ -1,6 +1,8 @@
 {
     "private": true,
     "scripts": {
+        "install-packages": "npm install && composer install",
+        "php-serve": "php artisan serve",
         "dev": "npm run development",
         "development": "mix",
         "watch": "mix watch",
